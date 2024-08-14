@@ -6,10 +6,6 @@ class CustomCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      elevation: 4,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(10),
-      ),
       child: Container(
         width: 200,
         height: 280,
@@ -29,11 +25,14 @@ class CustomCard extends StatelessWidget {
                 fontSize: 18,
               ),
             ),
-            Text(
-              '7 pcs (1 kg)',
-              textAlign: TextAlign.left,
-              style: TextStyle(
-                color: Colors.grey,
+            Padding(
+              padding: const EdgeInsets.only(right: 60),
+              child: Text(
+                '7 pcs, (1 kg)',
+                textAlign: TextAlign.left,
+                style: TextStyle(
+                  color: Colors.grey,
+                ),
               ),
             ),
             Row(
