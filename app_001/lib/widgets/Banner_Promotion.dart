@@ -33,8 +33,11 @@ class Banner_Promotion extends StatelessWidget {
             ),
           ),
           Positioned(
+            top: 60,
+            right: 0,
+            left: 300,
             child: Text(
-              'Seu Texto Aqui',
+              'Vlw Ricks do Rodo',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,

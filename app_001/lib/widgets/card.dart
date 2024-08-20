@@ -15,7 +15,7 @@ class CustomCard extends StatelessWidget {
           children: [
             SizedBox(width: 10.0),
             Image.network(
-              'assets/img/banana.png', // Coloque a URL da imagem da banana aqui
+              'assets/img/banana.png',
               height: 80,
             ),
             Text(
@@ -45,9 +45,7 @@ class CustomCard extends StatelessWidget {
                     fontSize: 18,
                   ),
                 ),
-                SizedBox(
-                    width:
-                        50.0), // Adiciona um espaço de 16 pixels entre o Text e o ElevatedButton
+                SizedBox(width: 50.0),
                 ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
